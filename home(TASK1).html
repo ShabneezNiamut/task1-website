@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="with=device-width, initial-scale=1.0">
+<title>Animals matter</title>
+<link rel="stylesheet" href="style(TASK1).css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&family=Source+Code+Pro:wght@200;300;400;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css" >
+<script src="https://kit.fontawesome.com/51b1144fe9.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+<section class="header"> 
+     <nav>
+	    <a href="blog2.html">
+		<img src="C:\Users\shabn\OneDrive\Desktop\UNI sem2\WDD\html pages\Images\logo3.png" >
+		</a>
+		<div class="nav-links" id="navlinks">
+		 <i class="fa fa-times" onclick="hideMenu()"></i>
+		   <ul>
+		        <li><a href="home(TASK1).html">HOME</a></li>
+				<li><a href="blog(TASK1).html">BLOG</a></li>
+				<li><a href="gallery(TASK1).html">GALLERY</a></li>
+				<li><a href="about(TASK1).html">ABOUT</a></li>
+				<li><a href="contact(TASK1).html">CONTACT</a></li>
+		   </ul>
+		</div>
+		 <i class="fa fa-bars" onclick="showMenu()"></i>
+	 </nav>
+
+  <div class="text-box">
+	<h1>Animals Matter</h1>
+    <p>making this world a better place for animals</p>
+	</br>
+	<a href="" class="hero-btn"> click here to view more </a>
+  </div>
+  
+</section>
+
+<section class="blog">
+     <h1>Care For Animals</h1>
+	 
+	 <div class="row">
+	    <div class="blog-col">
+		  <h3>Why Stray Animals Should Be Adopted</h3>
+		  <p>When we think of having a pet, we rarely think about stray dogs and cats because of the long-held
+		     belief that they are 'dirty' or 'less than' compared to the pricey purebred pets that most people prefer.
+             Most people are unaware that strays may be as beloved pets in our homes as any luxury breed that can be acquired.</p>
+	    </div>
+	 
+	    <div class="blog-col">
+		  <h3>The Benefits & Importance of Pet Carriers</h3>
+		  <p>Pet carrier is compact, movable carriers or cages used to carry animals such as cat, lap dogs, mini pigs, hamsters,
+		    chickens, and guinea pigs. It's crucial to have carriers, but it's even more essential to teach your companion to use
+		    them. It is your obligation as a pet owner to be sure that your companion feels secure and comfortable within the
+		    carrier to avoid stress and discomfort.</p>
+	    </div>
+	    <div class="blog-col">
+		  <h3>A Pet Parents Guide To Diwali!</h3>
+		  <p>Diwali is a joyful and exciting time for everyone! This time of year, though, 
+		     your beloved family members will demand additional care, safety, and affection.
+             Animals can hear, and the commotion and light from bursting crackers irritates them.</p>
+	    </div>
+	 </div>	
+</section>
+
+
+<script>
+    var navLinks = document.getElementById("navLinks");
+    function showMenu(){
+	  navLinks.style.right = "0";
+	  }
+	function hideMenu(){
+	  navlinks.style.right = "-200px";
+	  }
+</script>
+
+<section class="contact">
+      <h1>For more information</h1></br>
+	  <a href="" class="hero-btn">CONTACT US</a>
+</section>
+
+<section class="footer">
+    <h4>About Us</h4>
+	<p>Our vision is a world where humans treat animals with respect, empathy
+	and understanding!</p>
+
+    <div class="icons">
+	   <i class="fa fa-facebook" ></i>
+	   <i class="fa fa-instagram"></i>
+	   <i class="fa fa-twitter"></i>
+	</div>
+	
+</section>
+
+
+</body>
+</html>
